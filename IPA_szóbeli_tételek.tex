@@ -111,11 +111,17 @@
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 6. Ismertesse a 2 bemenetű logikai függvényeket! Ezek közül néhányat nevezzen is el!]
                 \begin{itemize}
-                    \item To be continued…
+                    \item 2 (független) változó esetén:
+                    \begin{center}
+                        \fbox{\includegraphics[scale = 0.5]{6_1.png}}
+                    \end{center}
+                    \(f_1: AND;\hspace{5pt}f_7: OR;\hspace{5pt}f_6: XOR;\hspace{5pt}f_8: NOR;\hspace{5pt}f_{14}: NAND;\hspace{5pt}f_0: 0;\hspace{5pt}f_{15}: 1;\)
+                    \item 
                 \end{itemize}
                 \textbf{Ismertesse (indoklással) az n bemenetű logikai függvények számát!}
                 \begin{itemize}
-                    \item To be continued…
+                    \item \(n\) bemenet esetén: \(n\) darab bemenő változó, mindegyiknek 2 értéke van, vagyis
+                    \(2n\) bemeneti kombinációhoz 2 elemet rendelünk, azaz: \(2^{2^n} \) darab függvény lesz (2 változó esetén 16 db függvény lesz).
                 \end{itemize}
             \end{tcolorbox}
 
@@ -133,8 +139,14 @@
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 8. Ismertesse az 1 bites teljes összeadó példáján keresztül a kombinációs logikai hálózatok elvét!]
+                \begin{center}
+                    \fbox{\includegraphics[scale = 0.7]{8_1.png}}
+                \end{center}
                 \begin{itemize}
-                    \item Bemenetek: 𝐴, 𝐵, 𝐶𝑖𝑛; Kimenetek: 𝑌, 𝐶𝑜𝑢𝑡
+                    \item Bemenetek: \(A,\hspace{3pt}B,\hspace{3pt}C_{in}\); Kimenetek: \(Y,\hspace{3pt}C_{out}\)
+                    \item \(Y\hspace{3pt}=\hspace{3pt}A\hspace{3pt}xor\hspace{3pt}B\hspace{3pt}xor\hspace{3pt}C\)
+                    \item \(C{out} = (A\hspace{3pt}and\hspace{3pt}B)\hspace{3pt}or\hspace{3pt}(A\hspace{3pt}and\hspace{3pt}C_{in})\hspace{3pt}or\hspace{3pt}(B\hspace{3pt}and\hspace{3pt}C_{in})\)
+                    \item A kombinációs logikai hálózatok kimenetei csak a bementektől függnek. Minden kimenetet egy függvény ír le.\((F_1(X_1, X_2, ... X_n))\)
                 \end{itemize}
             \end{tcolorbox}
 

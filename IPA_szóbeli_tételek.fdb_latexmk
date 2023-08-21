@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1692623235 "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex" "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.pdf" "IPA_szóbeli_tételek" 1692623243 2
+["pdflatex"] 1692624196 "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex" "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.pdf" "IPA_szóbeli_tételek" 1692624203 0
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/1.png" 1692042042 225128 dfd6b662b278e739e7f928055a26d51c ""
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/13.png" 1692041694 142440 fe4cb6d54615b663da0e9bfb4a2f8c23 ""
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/16_1.png" 1692108235 36515 7f11209b70178e5a2f05714f410e0858 ""
@@ -36,10 +36,12 @@
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_1.png" 1692279371 25273 b0d292e5ed10ecb32b712444a9e39aba ""
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_2.png" 1692279696 29821 de5e2a3dc82a791fecdb9278ef241f4e ""
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_3.png" 1692280187 26094 c17d7ad53e5cedc9d72564e7d445965b ""
+  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/6_1.png" 1692623873 155164 bfd26ea9a06680429895e295edb54f9b ""
   "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/7_1.png" 1692622573 90819 305e70ef7c305eea6ecf846799010ad1 ""
-  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.aux" 1692623242 673 ff8997bbad0108a0237bf2268ce26958 "pdflatex"
-  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.out" 1692623237 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex" 1692623225 92188 6298fa1a8b3c6bf950197647ad952fd7 ""
+  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/8_1.png" 1692623461 95762 bbbfcb1c750db1329946517ffcc71d66 ""
+  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.aux" 1692624203 673 783b1357df32b3f41b7557f74ab1c206 "pdflatex"
+  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.out" 1692623913 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex" 1692624195 93382 feb6d411510e1ceae4b73ef400fe89ae ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -80,6 +82,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
