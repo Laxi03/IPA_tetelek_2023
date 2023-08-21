@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 
 % USEPACKAGE LISTA
 \usepackage[utf8]{inputenc}
@@ -22,6 +22,7 @@
 \usepackage{fancyvrb}
 \usepackage{subfigure}
 \usepackage{subcaption}
+\usepackage[export]{adjustbox}
 
 \usepackage{pgfplots}
 \pgfplotsset{height = 10cm, width=15cm,compat=1.9}
@@ -119,14 +120,21 @@
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 7. Ismertesse a számítógépes rendszer logikai felépítését!]
+                \begin{center}
+                    \fbox{\includegraphics[scale = 0.8]{7_1.png}}
+                \end{center}
                 \begin{itemize}
-                    \item To be continued…
+                    \item \textbf{Busz:} párhuzamos (manapság soros) jel köteg.
+                    \item \textbf{Busz szélességek:} egyszerre átvihető adat mérete.
+                    \item \textbf{Adatbusz:} 8 bit (C64, ZX spectrum), 16 bit (IBM PC, pic24), 32 bit (IBM 386-486-Pentium) , 64 bit PC manapság. Szinte mindig az akkumulátor regiszermérete.
+                    \item \textbf{Címbusz:} memória maxméretét adja meg. 8 bites CPU-nál gyakran 16 bites (65536 cella), IBM PC-nél 20 bites, i9: 128 GB címezhető meg.
+                    \item Ha a memória-vezérlő is a CPU része, a címbusz csak belül jelenik meg.
                 \end{itemize}
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 8. Ismertesse az 1 bites teljes összeadó példáján keresztül a kombinációs logikai hálózatok elvét!]
                 \begin{itemize}
-                    \item To be continued…
+                    \item Bemenetek: 𝐴, 𝐵, 𝐶𝑖𝑛; Kimenetek: 𝑌, 𝐶𝑜𝑢𝑡
                 \end{itemize}
             \end{tcolorbox}
 
@@ -170,9 +178,63 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 1.]
                 \begin{itemize}
-                    \item To be continued…
+                    \item \textbf{Polling}
+                    \begin{itemize}
+                        \item A periféria állapotát le kell kezelni: pl. észre kell venni, ha leütöttek egy billentyűt.
+                        \item Ennek legegyszerűbb módja az ún. pollozás/polling: a program bizonyos időközönként kiolvassa a perifériát, ha nincs változás, foglalkozik a többi programmal, ha változás van, lekezeli a változást, majd foglalkozik a többi programmal.
+                        \item A periféria változása a főprogramhoz képest aszinkron bekövetkezésű (vagyis nem tudjuk, hogy mikor kell beavatkozni).
+                        \item A módszer nem hatékony: túl sok utasítás megy el felesleges lekérdezéssel, a főprogramból gyakran kell lekérdezést kérdezni,
+                    \end{itemize}
+                    \item \textbf{IRQ}
+                    \begin{enumerate}
+                        \item Egészítsükki a perifériát egy plusz kimeneti lábbal: ezen küldjön aktív értéket, ha állapotváltozás miatt „figyelemre” van szüksége.
+                        \item Ezt a lábat nevezzük el „interruptrequest”/megszakítás kérő lábnak.
+                        \item A lábat kössük be a CPU-ba! (a gyakorlati megvalósítás bonyolultabb: pl. azonosítani kell, hogy melyik
+                        periféria volt a megszakítás kérő).
+                        \item A megszakítási kérelemre a CPU futtasson le egy IRQ kezelő függvényt. A függvény címe a memóriában fix helyen, IVT-ben van tárolva. A függvényt úgy kell megírni, hogy ne rontsa el a regiszterek értékét, mert az IRQ bármikor jöhet.
+                    \end{enumerate}
+                    \textbf{Felhasználás:}
+                    \begin{itemize}
+                        \item Hardver hibák (memória hiba, busz hiba) lekezelése
+                        \item Szoftver hibák (0-val osztás, védett memóriaterületre hivatkozás, verem alul/felülcsordulás) lekezelése
+                        \item Idő kezelése (1s-onként irqaktualizálja a rendszeridőt)
+                        \item Szoftveresen is hívható, intel-nél utasítás van rá: operációs rendszer belépési pontjai.
+                        \item Maszkolhatómegszakítás: utasítással letiltható, ekkor nem fut le az irqszubrutin
+                        \item Nem maszkolhatómegszakítás (NMI) szoftverből nem tiltható le.
+                        \item A megszakítások prioritási sorba állíthatók: a nagyobb prioritású irqmegszakíthatja a kisebb prioritású irqkiszolgálását, fordítva nem.
+                    \end{itemize}
+                \end{itemize}
+            \end{tcolorbox}
+
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 2.]
+                \begin{itemize}
+                    \item \textbf{DMA nélkül}
+                    \begin{itemize}
+                        \item  Nagymennyiségű adat átvitele a háttértárról (periféria)
+                        \item CPU megcímzi a perifériát (megadja, hogy hol található az adat) a buszon keresztül
+                        \item Periféria szolgáltatja az adatot (idő!) Az adat a CPU regiszterébe kerül (buszon keresztül)
+                        \item A CPU a memóriába teszi az adatot a regiszterből.
+                        \item Következő bájt a memória következő címére a háttértárról
+                        \item CPU mással nem tud közben foglalkozni.
+                    \end{itemize}
+                    \item \textbf{DMA}
+                    \begin{itemize}
+                        \item A művelet közben nincs nagy számítás igény: buszt kell vezérelni, címet növelni 1-gyel.
+                        \item Erre a műveletre készülhet egy speciális áramkör: DMA vezérlő.
+                    \end{itemize}
+                    \begin{enumerate}
+                        \item A CPU megmondja a DMA vezérlőnek, hogy honnan, hova, hány bájtot.
+                        \item A DMA vezérlő elkéri a buszt a CPU-tól, ha annak éppen nincs rá szüksége (plbelső művelet zajlik). A CPU lekapcsolja a buszmeghajtókat.
+                        \item A DMA vezérlő átvisz 1 bájtot a perifériából, a saját adatregiszerébe(olvasás esetén).
+                        \item A DMA vezérlő által elkért buszon átvisz 1 bájtot a memóriába. Írás esetén a két lépés fordított sorrendben.
+                        \item A DMA vezérlő visszaadja a buszt
+                        \item DMA vezérlő újra elkéri a buszt.
+                        \item Az utolsó bájt átvitele után nem kéri el a buszt, egy IRQ-n keresztül jelzi, hogy az átvitel kész.
+                        \item A busz elkérés neve: busz arbritráció.
+                        \item Dinamikus memória frissítésére is kiváló!
+                    \end{enumerate}
                 \end{itemize}
             \end{tcolorbox}
             
@@ -346,8 +408,33 @@
             
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 23. Ismertesse a bináris fák szerkezetét és tárolási lehetőségeit számítógépen!]
                 \begin{itemize}
-                    \item To be continued…
+                    \item Elemek véges halmaza, amely, vagy üres, vagy egyetlen T elemhez (gyökér) kapcsolt két diszjunkt T1 és T2 részfa alkotja\\
+                    \begin{center}
+                        \includegraphics[scale = 0.3]{23_1.png}
+                    \end{center}
+                    \item \textbf{Gyökérelem:} A
+                    \item \textbf{Baloldali részfa:} L(A)=(B,D,E,G)
+                    \item \textbf{Jobboldalirészfa:} R(A)=(C,F)
+                    \item \textbf{Szukcesszor:} leszármazott. Egy elemnek 0,1,2 lehet.
+                    \item Bal és jobb oldali szukcesszor
+                    \item B bal oldali szukcesszora A-nak, H jobb oldali szukcesszora E-nek.
+                    \item \textbf{0 szukcesszor:} zárócsomópont, levél
+                    \item Összekötő vonalak: élek
+                    \item \textbf{Utolsó él:} ág
+                    \item \textbf{Szintszám:} gyökér 0, leszármazott=szülő+1
+                    \item \textbf{Generáció:} azonos szintszámú elemek
+                    \item \textbf{Teljes:} az utolsó szintet kivéve minden elemnek 2 leszármazottja van
+                    \item \textbf{Kiterjesztett:} minden csomópontnak 0 vagy 2 leszármazottja van
                 \end{itemize}
+                \begin{center}
+                    \includegraphics[scale = 0.3]{23_2.png}
+                \end{center}
+                \begin{center}
+                    \includegraphics[scale = 0.25]{23_3.png}
+                \end{center}
+                \begin{center}
+                    \includegraphics[scale = 0.3]{23_4.png}
+                \end{center}
             \end{tcolorbox}
             
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 24. Ismertesse a veremtár működését!]
@@ -938,33 +1025,62 @@ end procedure
                 \end{Verbatim}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 58. Melyik tároló tartalmaz a számítógépben D tárolót?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 58. Ismertesse a függvények írásának és paraméterezésének nyelvi szabályait a C nyelvben!]
                 \begin{itemize}
-                    \item RAM, SSD, HDD
+                    \item Minden nyelvi elemet használat előtt deklarálni kell, a változókat is, a struktúrákat is, és a függvényeket is.
+                    \item Függvényen belül függvény nem definiálható (csak 1 szint létezik a memóriában).
+                    \item Készíthető paraméterezett, paraméter nélküli, visszatérő érték kel rendelkező és visszatérő érték nélküli függvény. A használatkor ugyanannyi és ugyanolyan típusú változó szükséges, mint a deklarációnál. Ez alól két speciális kivétel van: a változó számú és típusú paraméterrel használható \(printf()\) és \(scanf()\). A \(va \textunderscore arg\)-ot használó függvény nem része a tematikának, ilyet nem fogunk írni.
+                    \item A függvények neveire ugyanazok a megkötések, mint a változók neveire: egyedi nek kell lenni, ami nem lehet egy, már deklarált változó/függvény neve. Nem lehet foglalt kulcsszó , csak az engedélyezett karaktereket
+                    \item A programunk alapértelmezetten elinduló függvénye a \(main()\) nevű, amelyet a program indításakor az operációs rendszer lefuttat. A \(main()\) átdefiniálható, mert ez csak egy cím a futtatható fájlban (exe). A return a hívóhoz tér vissza: windows-ból indítva windows-ba , visual studióból indítva oda.
+                    
+                \end{itemize}
+                A használat meghívással valósul meg. A veremtárba elmentjük, hogy mi következik, majd a függvény memóriacímére ugrunk a memóriában a cpu végrehajtó utasítás pointerével (pl. pc-nél: IP), majd a függvény végén a veremtárból felolvasott címen (a hívás utáni címen) folytatjuk.
+            \end{tcolorbox}
+
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 59. Ismertesse a formális és aktuális paraméter fogalmát a C nyelv függvényeinél!]
+                \begin{itemize}
+                    \item \textbf{Formális Paraméternek:} A függvény neve utáni zárójelben a paramétereit adhatjuk meg. Minden paraméter típusát egyenként meg kell adni.
+                    \item \textbf{Aktuális paraméterek:} Ezek a paraméterek az adott függvényhívás során megadott értékek vagy kifejezések. Az aktuális paraméterek a függvényhívás során átadódnak a függvénynek, és azok a formális paraméterekkel kerülnek párosításra.
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 59. Melyik tároló tartalmaz a számítógépben D tárolót?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 60. Milyen paraméter-átadást használ a C nyelv?]
+                A C nyelv alapértelmezetten érték szerinti paraméter-átadást használ. Ez azt jelenti, hogy amikor egy függvénynek átadunk egy paramétert, akkor a függvény a paraméter értékének másolatát kapja meg, és a függvényen belül végzett módosítások nem változtatják meg az eredeti változó értékét a hívó folyamatban.\\ \\
+                \textbf{Hogy tudja megváltoztatni a függvény aparaméterei értékét úgy, hogy a hívó folyamatban is a változtatott érték szerepeljen?}
+                A C nyelvben a paraméterek értékének megváltoztatásához pointer-eket használhatunk. Azaz, ha egy függvénynek átadunk egy paramétert cím szerint ('\&' operátorral), akkor a függvényen belül közvetlenül a paraméter címére mutató pointerrel dolgozhatunk, és az értékeket közvetlenül módosíthatjuk, ami a hívó folyamatban is érvényesül.
+            \end{tcolorbox}
+
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 61. Ismertesse a lokális és globális változó fogalmakat!]
                 \begin{itemize}
-                    \item RAM, SSD, HDD
+                    \item Minden változó, amelyet egy program blokkon \(\{\}\) belül deklaráltunk, a blokkon belül lokálisváltozóként működnek, a blokk végén \(\}\) megszűnnek. Ha még egyszer meghívjuk a függvényt, a megszűnt változót újra deklaráljuk, az előző megszűnésekor lévő érték nem lesz benne.
+                    \item Azok a változók, amelyek a file szintjén (vagyis a függvényeken kívül) lettek deklarálva, globálisváltozók. Minden függvényben ugyanazt jelentik. Ha adott nevű változóból van lokális és globális is, a változó neve a lokális változót jelenti, elérakva a :: operátort a globális változót. Globális változó megadható .hfájlban is extern-ként, valamint valamelyik .c-ben (csak 1-ben) deklarálva.
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 60. Melyik tároló tartalmaz a számítógépben D tárolót?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 62. Ismertesse a string tárolás C nyelvű megvalósítást{,} valamint a stringek kezelésére leggyakrabban használt függvényeket!]
+            \textbf{Deklaráció és helyfoglalás:}    
                 \begin{itemize}
-                    \item RAM, SSD, HDD
+                    \item \(char*stringnév = (char*)malloc(string mérete);\)
+                    \item A mallocba nem kell \(sizeof\), mert esetünkben definició szerint 1. Kis rendszereknél, vagy nagy memóriafogyasztású programoknál ellenőrizzük a visszatérő értéket! NULL pointer esetén elfogyott a memória.
+                    \item A végjel 0-nak is szüksége van helyre. Vagyis \(n\) karakter tárolásához \(n+1\) helyet kell allokálni.
                 \end{itemize}
+            \textbf{Stringek kezelésére leggyakrabban használt függvények:}
+            \begin{itemize}
+                \item \(strlen()\): String hosszának meghatározása.
+                \item \(strcpy()\): String másolása.
+                \item \(strcat()\): Stringek összefűzése.
+                \item \(strcmp()\): Stringek összehasonlítása.
+                \item \(strchr()\): Karakter keresése a stringben.
+                \item \(strstr()\): String keresése a másik stringben.
+            \end{itemize}
+            Ezek a függvények a \(<string.h>\) könyvtárban találhatók
             \end{tcolorbox}
-
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 61. Melyik tároló tartalmaz a számítógépben D tárolót?]
+            
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 63. Ismertesse a szöveges fájlok módosításának lépéseit!]
                 \begin{itemize}
-                    \item RAM, SSD, HDD
-                \end{itemize}
-            \end{tcolorbox}
-
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 62. Melyik tároló tartalmaz a számítógépben D tárolót?]
-                \begin{itemize}
-                    \item RAM, SSD, HDD
+                    \item \textbf{Fájl megnyitása:} \(fopen()\) függvény (fájl megnyitása olvasásra/írásra).
+                    \item \textbf{Fájl tartalmának módosítása:} \(fread()\), \(fwrite()\), \(fscanf()\), \(fprintf()\) függvények (adatok olvasása és írása a fájlba).
+                    \item \textbf{Fájl bezárása:} \(fclose()\) függvény (fájl bezárása és erőforrások felszabadítása).
                 \end{itemize}
             \end{tcolorbox}
 

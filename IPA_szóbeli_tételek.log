@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  17 AUG 2023 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  21 AUG 2023 15:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -678,46 +678,89 @@ Package subcaption Info: The counter `subfigure' was already defined by
 (subcaption)             an unknown document class or package on input line 239.
 Package subcaption Info: The counter `subtable' was already defined by
 (subcaption)             an unknown document class or package on input line 239.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
+)
+\XKV@depth=\count339
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box124
+)
+\tc@llx=\dimen299
+\tc@lly=\dimen300
+\tc@urx=\dimen301
+\tc@ury=\dimen302
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen303
+\adjbox@Height=\dimen304
+\adjbox@Depth=\dimen305
+\adjbox@Totalheight=\dimen306
+\adjbox@pwidth=\dimen307
+\adjbox@pheight=\dimen308
+\adjbox@pdepth=\dimen309
+\adjbox@ptotalheight=\dimen310
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count340
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box125
+\sift@deathcycles=\count341
+\@vwid@loff=\dimen311
+\@vwid@roff=\dimen312
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks44
-\t@pgfplots@tokb=\toks45
-\t@pgfplots@tokc=\toks46
-\pgfplots@tmpa=\dimen299
-\c@pgfplots@coordindex=\count339
-\c@pgfplots@scanlineindex=\count340
+\t@pgfplots@toka=\toks46
+\t@pgfplots@tokb=\toks47
+\t@pgfplots@tokc=\toks48
+\pgfplots@tmpa=\dimen313
+\c@pgfplots@coordindex=\count342
+\c@pgfplots@scanlineindex=\count343
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count341
+\c@pgfplotsarray@tmp=\count344
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count342
-\t@pgfplotstable@a=\toks50
+\c@pgfplotstable@counta=\count345
+\t@pgfplotstable@a=\toks52
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count343
+\c@pgfplotslibrarysurf@no=\count346
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen300
-\pgfdecoratedremainingdistance=\dimen301
-\pgfdecoratedinputsegmentcompleteddistance=\dimen302
-\pgfdecoratedinputsegmentremainingdistance=\dimen303
-\pgf@decorate@distancetomove=\dimen304
-\pgf@decorate@repeatstate=\count344
-\pgfdecorationsegmentamplitude=\dimen305
-\pgfdecorationsegmentlength=\dimen306
+\pgfdecoratedcompleteddistance=\dimen314
+\pgfdecoratedremainingdistance=\dimen315
+\pgfdecoratedinputsegmentcompleteddistance=\dimen316
+\pgfdecoratedinputsegmentremainingdistance=\dimen317
+\pgf@decorate@distancetomove=\dimen318
+\pgf@decorate@repeatstate=\count347
+\pgfdecorationsegmentamplitude=\dimen319
+\pgfdecorationsegmentlength=\dimen320
 )
-\tikz@lib@dec@box=\box124
+\tikz@lib@dec@box=\box126
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count345
-\pgfplots@xmin@reg=\dimen307
-\pgfplots@xmax@reg=\dimen308
-\pgfplots@ymin@reg=\dimen309
-\pgfplots@ymax@reg=\dimen310
-\pgfplots@zmin@reg=\dimen311
-\pgfplots@zmax@reg=\dimen312
+\pgfplots@numplots=\count348
+\pgfplots@xmin@reg=\dimen321
+\pgfplots@xmax@reg=\dimen322
+\pgfplots@ymin@reg=\dimen323
+\pgfplots@ymax@reg=\dimen324
+\pgfplots@zmin@reg=\dimen325
+\pgfplots@zmax@reg=\dimen326
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
@@ -727,61 +770,60 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count346
-\Gm@cntv=\count347
-\c@Gm@tempcnt=\count348
-\Gm@bindingoffset=\dimen313
-\Gm@wd@mp=\dimen314
-\Gm@odd@mp=\dimen315
-\Gm@even@mp=\dimen316
-\Gm@layoutwidth=\dimen317
-\Gm@layoutheight=\dimen318
-\Gm@layouthoffset=\dimen319
-\Gm@layoutvoffset=\dimen320
-\Gm@dimlist=\toks51
+\Gm@cnth=\count349
+\Gm@cntv=\count350
+\c@Gm@tempcnt=\count351
+\Gm@bindingoffset=\dimen327
+\Gm@wd@mp=\dimen328
+\Gm@odd@mp=\dimen329
+\Gm@even@mp=\dimen330
+\Gm@layoutwidth=\dimen331
+\Gm@layoutheight=\dimen332
+\Gm@layouthoffset=\dimen333
+\Gm@layoutvoffset=\dimen334
+\Gm@dimlist=\toks53
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count349
-\l__pdf_internal_box=\box125
-) (./IPA_szóbeli_tételek.aux)
+\l__color_backend_stack_int=\count352
+\l__pdf_internal_box=\box127
+) (/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.aux)
 \openout1 = `IPA_szóbeli_tételek.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-Package hyperref Info: Link coloring ON on input line 45.
- (./IPA_szóbeli_tételek.out) (./IPA_szóbeli_tételek.out)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+Package hyperref Info: Link coloring ON on input line 46.
 \@outlinefile=\write5
 \openout5 = `IPA_szóbeli_tételek.out'.
 
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count350
-\scratchdimen=\dimen321
-\scratchbox=\box126
-\nofMPsegments=\count351
-\nofMParguments=\count352
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count353
-\MPscratchDim=\dimen322
-\MPnumerator=\count354
-\makeMPintoPDFobject=\count355
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count353
+\scratchdimen=\dimen335
+\scratchbox=\box128
+\nofMPsegments=\count354
+\nofMParguments=\count355
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count356
+\MPscratchDim=\dimen336
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
+\everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -820,12 +862,12 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -839,11 +881,11 @@ Package pgfplots notification 'compat/show suggested version=true': you might be
 LaTeX Info: Redefining \cal on input line 497.
 LaTeX Info: Redefining \mit on input line 498.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -853,488 +895,701 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <1.png, id=15, 702.625pt x 505.89pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 60.
+Package pdftex.def Info: 1.png  used on input line 61.
 (pdftex.def)             Requested size: 210.78912pt x 151.76816pt.
 <2.png, id=17, 511.9125pt x 239.89626pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 75.
+Package pdftex.def Info: 2.png  used on input line 76.
 (pdftex.def)             Requested size: 255.95563pt x 119.94783pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./1.png> <./2.png>]
+[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/2.png>]
 <13.png, id=27, 528.97626pt x 257.96375pt>
 File: 13.png Graphic file (type png)
 <use 13.png>
-Package pdftex.def Info: 13.png  used on input line 107.
+Package pdftex.def Info: 13.png  used on input line 108.
 (pdftex.def)             Requested size: 396.73122pt x 193.47232pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4 <./13.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5]
-<16_1.png, id=43, 145.54375pt x 192.72pt>
-File: 16_1.png Graphic file (type png)
-<use 16_1.png>
-Package pdftex.def Info: 16_1.png  used on input line 188.
-(pdftex.def)             Requested size: 72.77168pt x 96.35976pt.
-<16_2.png, id=44, 338.26375pt x 226.8475pt>
-File: 16_2.png Graphic file (type png)
-<use 16_2.png>
-Package pdftex.def Info: 16_2.png  used on input line 197.
-(pdftex.def)             Requested size: 169.13145pt x 113.42346pt.
-<16_3.png, id=45, 616.3025pt x 269.005pt>
-File: 16_3.png Graphic file (type png)
-<use 16_3.png>
-Package pdftex.def Info: 16_3.png  used on input line 206.
-(pdftex.def)             Requested size: 308.1505pt x 134.50217pt.
+<7_1.png, id=33, 438.63875pt x 226.8475pt>
+File: 7_1.png Graphic file (type png)
+<use 7_1.png>
+Package pdftex.def Info: 7_1.png  used on input line 124.
+(pdftex.def)             Requested size: 350.91147pt x 181.47824pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/13.png>]
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝐴 (U+1D434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137                     \item Bemenetek: 𝐴
+                                               , 𝐵, 𝐶𝑖𝑛; Kimenet...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝐵 (U+1D435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...              \item Bemenetek: 𝐴, 𝐵
+                                                  , 𝐶𝑖𝑛; Kimenetek:...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝐶 (U+1D436)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...        \item Bemenetek: 𝐴, 𝐵, 𝐶
+                                                  𝑖𝑛; Kimenetek: 𝑌,...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑖 (U+1D456)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...    \item Bemenetek: 𝐴, 𝐵, 𝐶𝑖
+                                                  𝑛; Kimenetek: 𝑌, �...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑛 (U+1D45B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...\item Bemenetek: 𝐴, 𝐵, 𝐶𝑖𝑛
+                                                  ; Kimenetek: 𝑌, 𝐶�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑌 (U+1D44C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...𝐴, 𝐵, 𝐶𝑖𝑛; Kimenetek: 𝑌
+                                                  , 𝐶𝑜𝑢𝑡
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝐶 (U+1D436)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...𝐵, 𝐶𝑖𝑛; Kimenetek: 𝑌, 𝐶
+                                                  𝑜𝑢𝑡
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑜 (U+1D45C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ..., 𝐶𝑖𝑛; Kimenetek: 𝑌, 𝐶𝑜
+                                                  𝑢𝑡
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑢 (U+1D462)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...��𝑖𝑛; Kimenetek: 𝑌, 𝐶𝑜𝑢
+                                                  𝑡
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.tex:137: LaTeX Error: Unicode character 𝑡 (U+1D461)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...��𝑛; Kimenetek: 𝑌, 𝐶𝑜𝑢𝑡
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/7_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+[]\T1/cmr/m/n/10.95 Szoftver hi-b�k (0-val osz-t�s, v�-dett me-m�-ria-te-r�-let-re hi-vat-ko-z�s, ve-rem
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./16_1.png> <./16_2.png> <./16_3.png>]
-<18_1.png, id=59, 221.82875pt x 170.6375pt>
+[7]
+<16_1.png, id=58, 145.54375pt x 192.72pt>
+File: 16_1.png Graphic file (type png)
+<use 16_1.png>
+Package pdftex.def Info: 16_1.png  used on input line 250.
+(pdftex.def)             Requested size: 72.77168pt x 96.35976pt.
+<16_2.png, id=59, 338.26375pt x 226.8475pt>
+File: 16_2.png Graphic file (type png)
+<use 16_2.png>
+Package pdftex.def Info: 16_2.png  used on input line 259.
+(pdftex.def)             Requested size: 169.13145pt x 113.42346pt.
+<16_3.png, id=60, 616.3025pt x 269.005pt>
+File: 16_3.png Graphic file (type png)
+<use 16_3.png>
+Package pdftex.def Info: 16_3.png  used on input line 268.
+(pdftex.def)             Requested size: 308.1505pt x 134.50217pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/16_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/16_2.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/16_3.png>]
+<18_1.png, id=82, 221.82875pt x 170.6375pt>
 File: 18_1.png Graphic file (type png)
 <use 18_1.png>
-Package pdftex.def Info: 18_1.png  used on input line 247.
+Package pdftex.def Info: 18_1.png  used on input line 309.
 (pdftex.def)             Requested size: 110.9141pt x 85.31853pt.
-<18_2.png, id=60, 391.4625pt x 207.77625pt>
+<18_2.png, id=83, 391.4625pt x 207.77625pt>
 File: 18_2.png Graphic file (type png)
 <use 18_2.png>
-Package pdftex.def Info: 18_2.png  used on input line 257.
+Package pdftex.def Info: 18_2.png  used on input line 319.
 (pdftex.def)             Requested size: 313.17041pt x 166.2212pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]
-<19_2.png, id=65, 445.665pt x 90.3375pt>
+[10]
+<19_2.png, id=88, 445.665pt x 90.3375pt>
 File: 19_2.png Graphic file (type png)
 <use 19_2.png>
-Package pdftex.def Info: 19_2.png  used on input line 273.
+Package pdftex.def Info: 19_2.png  used on input line 335.
 (pdftex.def)             Requested size: 311.96336pt x 63.23581pt.
-<19_1.png, id=66, 441.65pt x 99.37125pt>
+<19_1.png, id=89, 441.65pt x 99.37125pt>
 File: 19_1.png Graphic file (type png)
 <use 19_1.png>
-Package pdftex.def Info: 19_1.png  used on input line 277.
+Package pdftex.def Info: 19_1.png  used on input line 339.
 (pdftex.def)             Requested size: 309.15288pt x 69.55939pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9 <./18_1.png> <./18_2.png>]
+[11 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/18_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/18_2.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10 <./19_2.png> <./19_1.png>]
-<20_1.png, id=79, 516.93124pt x 194.7275pt>
+[12 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/19_2.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/19_1.png>]
+<20_1.png, id=102, 516.93124pt x 194.7275pt>
 File: 20_1.png Graphic file (type png)
 <use 20_1.png>
-Package pdftex.def Info: 20_1.png  used on input line 314.
+Package pdftex.def Info: 20_1.png  used on input line 376.
 (pdftex.def)             Requested size: 258.46498pt x 97.3635pt.
-<20_2.png, id=80, 235.88126pt x 187.70125pt>
+<20_2.png, id=103, 235.88126pt x 187.70125pt>
 File: 20_2.png Graphic file (type png)
 <use 20_2.png>
-Package pdftex.def Info: 20_2.png  used on input line 318.
+Package pdftex.def Info: 20_2.png  used on input line 380.
 (pdftex.def)             Requested size: 117.94034pt x 93.85039pt.
-<22_1.png, id=81, 175.65625pt x 140.525pt>
+<22_1.png, id=104, 175.65625pt x 140.525pt>
 File: 22_1.png Graphic file (type png)
 <use 22_1.png>
-Package pdftex.def Info: 22_1.png  used on input line 332.
+Package pdftex.def Info: 22_1.png  used on input line 394.
 (pdftex.def)             Requested size: 105.39455pt x 84.31564pt.
-<22_2.png, id=82, 582.175pt x 176.66pt>
+<22_2.png, id=105, 582.175pt x 176.66pt>
 File: 22_2.png Graphic file (type png)
 <use 22_2.png>
-Package pdftex.def Info: 22_2.png  used on input line 343.
+Package pdftex.def Info: 22_2.png  used on input line 405.
 (pdftex.def)             Requested size: 349.3077pt x 105.99681pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11 <./20_1.png> <./20_2.png>]
+[13 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/20_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/20_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+<23_1.png, id=113, 265.99374pt x 302.12875pt>
+File: 23_1.png Graphic file (type png)
+<use 23_1.png>
+Package pdftex.def Info: 23_1.png  used on input line 413.
+(pdftex.def)             Requested size: 79.79874pt x 90.63931pt.
+<23_2.png, id=114, 487.8225pt x 262.9825pt>
+File: 23_2.png Graphic file (type png)
+<use 23_2.png>
+Package pdftex.def Info: 23_2.png  used on input line 430.
+(pdftex.def)             Requested size: 146.34787pt x 78.89534pt.
+<23_3.png, id=115, 580.1675pt x 317.185pt>
+File: 23_3.png Graphic file (type png)
+<use 23_3.png>
+Package pdftex.def Info: 23_3.png  used on input line 433.
+(pdftex.def)             Requested size: 145.0415pt x 79.29605pt.
+<23_4.png, id=116, 496.85625pt x 263.98625pt>
+File: 23_4.png Graphic file (type png)
+<use 23_4.png>
+Package pdftex.def Info: 23_4.png  used on input line 436.
+(pdftex.def)             Requested size: 149.05801pt x 79.19647pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12 <./22_1.png> <./22_2.png>]
-<25_1.png, id=95, 316.18124pt x 64.24pt>
+[14 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/22_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/22_2.png>]
+Overfull \vbox (27.33075pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/23_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/23_2.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/23_3.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/23_4.png>]
+<25_1.png, id=131, 316.18124pt x 64.24pt>
 File: 25_1.png Graphic file (type png)
 <use 25_1.png>
-Package pdftex.def Info: 25_1.png  used on input line 380.
+Package pdftex.def Info: 25_1.png  used on input line 467.
 (pdftex.def)             Requested size: 252.94533pt x 51.39206pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 408.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 495.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13 <./25_1.png>]
+[16 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/25_1.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14]
+[17]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16]
-<32_1.png, id=116, 515.9275pt x 142.5325pt>
+[18]
+<32_1.png, id=147, 515.9275pt x 142.5325pt>
 File: 32_1.png Graphic file (type png)
 <use 32_1.png>
-Package pdftex.def Info: 32_1.png  used on input line 520.
+Package pdftex.def Info: 32_1.png  used on input line 607.
 (pdftex.def)             Requested size: 309.55888pt x 85.52014pt.
-<32_2.png, id=117, 564.1075pt x 606.265pt>
+<32_2.png, id=148, 564.1075pt x 606.265pt>
 File: 32_2.png Graphic file (type png)
 <use 32_2.png>
-Package pdftex.def Info: 32_2.png  used on input line 527.
+Package pdftex.def Info: 32_2.png  used on input line 614.
 (pdftex.def)             Requested size: 423.07957pt x 454.69763pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17]
-<33_1.png, id=122, 520.94624pt x 291.0875pt>
+[19]
+<33_1.png, id=154, 520.94624pt x 291.0875pt>
 File: 33_1.png Graphic file (type png)
 <use 33_1.png>
-Package pdftex.def Info: 33_1.png  used on input line 536.
+Package pdftex.def Info: 33_1.png  used on input line 623.
 (pdftex.def)             Requested size: 364.65988pt x 203.75984pt.
-<33_2.png, id=123, 557.08125pt x 291.0875pt>
+<33_2.png, id=155, 557.08125pt x 291.0875pt>
 File: 33_2.png Graphic file (type png)
 <use 33_2.png>
-Package pdftex.def Info: 33_2.png  used on input line 547.
+Package pdftex.def Info: 33_2.png  used on input line 634.
 (pdftex.def)             Requested size: 389.95422pt x 203.75984pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18 <./32_1.png> <./32_2.png>]
-<34_1.png, id=130, 792.9625pt x 541.02126pt>
+[20 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/32_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/32_2.png>]
+<34_1.png, id=162, 792.9625pt x 541.02126pt>
 File: 34_1.png Graphic file (type png)
 <use 34_1.png>
-Package pdftex.def Info: 34_1.png  used on input line 559.
+Package pdftex.def Info: 34_1.png  used on input line 646.
 (pdftex.def)             Requested size: 158.58969pt x 108.20233pt.
-<34_2.png, id=131, 793.96625pt x 465.74pt>
+<34_2.png, id=163, 793.96625pt x 465.74pt>
 File: 34_2.png Graphic file (type png)
 <use 34_2.png>
-Package pdftex.def Info: 34_2.png  used on input line 562.
+Package pdftex.def Info: 34_2.png  used on input line 649.
 (pdftex.def)             Requested size: 158.79044pt x 93.14635pt.
-<34_3.png, id=132, 794.97pt x 464.73625pt>
+<34_3.png, id=164, 794.97pt x 464.73625pt>
 File: 34_3.png Graphic file (type png)
 <use 34_3.png>
-Package pdftex.def Info: 34_3.png  used on input line 565.
+Package pdftex.def Info: 34_3.png  used on input line 652.
 (pdftex.def)             Requested size: 158.99118pt x 92.9456pt.
-<34_4.png, id=133, 792.9625pt x 463.7325pt>
+<34_4.png, id=165, 792.9625pt x 463.7325pt>
 File: 34_4.png Graphic file (type png)
 <use 34_4.png>
-Package pdftex.def Info: 34_4.png  used on input line 568.
+Package pdftex.def Info: 34_4.png  used on input line 655.
 (pdftex.def)             Requested size: 158.58969pt x 92.74484pt.
-<34_5.png, id=134, 792.9625pt x 462.72874pt>
+<34_5.png, id=166, 792.9625pt x 462.72874pt>
 File: 34_5.png Graphic file (type png)
 <use 34_5.png>
-Package pdftex.def Info: 34_5.png  used on input line 571.
+Package pdftex.def Info: 34_5.png  used on input line 658.
 (pdftex.def)             Requested size: 158.58969pt x 92.5441pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19 <./33_1.png> <./33_2.png>]
+[21 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/33_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/33_2.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20 <./34_1.png> <./34_2.png> <./34_3.png> <./34_4.png> <./34_5.png>]
-<36_1.png, id=151, 787.94376pt x 455.7025pt>
+[22 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34_2.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34_3.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34_4.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34_5.png>]
+<36_1.png, id=182, 787.94376pt x 455.7025pt>
 File: 36_1.png Graphic file (type png)
 <use 36_1.png>
-Package pdftex.def Info: 36_1.png  used on input line 595.
+Package pdftex.def Info: 36_1.png  used on input line 682.
 (pdftex.def)             Requested size: 393.97092pt x 227.85068pt.
-<36_2.png, id=152, 782.925pt x 455.7025pt>
+<36_2.png, id=183, 782.925pt x 455.7025pt>
 File: 36_2.png Graphic file (type png)
 <use 36_2.png>
-Package pdftex.def Info: 36_2.png  used on input line 598.
+Package pdftex.def Info: 36_2.png  used on input line 685.
 (pdftex.def)             Requested size: 391.46155pt x 227.85068pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 623--624
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22 <./36_1.png> <./36_2.png>]
-<38_1.png, id=163, 783.92876pt x 110.4125pt>
+[24 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/36_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/36_2.png>]
+<38_1.png, id=194, 783.92876pt x 110.4125pt>
 File: 38_1.png Graphic file (type png)
 <use 38_1.png>
-Package pdftex.def Info: 38_1.png  used on input line 629.
+Package pdftex.def Info: 38_1.png  used on input line 716.
 (pdftex.def)             Requested size: 391.96342pt x 55.2061pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[23]
-<40_1.png, id=168, 373.395pt x 249.93375pt>
+[25]
+<40_1.png, id=200, 373.395pt x 249.93375pt>
 File: 40_1.png Graphic file (type png)
 <use 40_1.png>
-Package pdftex.def Info: 40_1.png  used on input line 660.
+Package pdftex.def Info: 40_1.png  used on input line 747.
 (pdftex.def)             Requested size: 242.70387pt x 162.455pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24 <./38_1.png>]
-<41_1.png, id=181, 499.8675pt x 237.88875pt>
+[26 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/38_1.png>]
+<41_1.png, id=214, 499.8675pt x 237.88875pt>
 File: 41_1.png Graphic file (type png)
 <use 41_1.png>
-Package pdftex.def Info: 41_1.png  used on input line 674.
+Package pdftex.def Info: 41_1.png  used on input line 761.
 (pdftex.def)             Requested size: 199.94345pt x 95.15381pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25 <./40_1.png>]
-Overfull \vbox (16.55943pt too high) has occurred while \output is active []
+[27 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/40_1.png>]
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/41_1.png>]
+Underfull \hbox (badness 6758) in paragraph at lines 809--810
+[]\T1/cmr/bx/n/10.95 Hozz�f�r�s-szab�lyoz�s: \T1/cmr/m/n/10.95 A masz-ko-l�s le-he-t�-s�-get ny�jt h�-l�-za-ti hozz�f�r�s-
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[26 <./41_1.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 774--776
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 861--863
 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30]
-<51_1.png, id=223, 358.33875pt x 88.33pt>
+[32]
+<51_1.png, id=255, 358.33875pt x 88.33pt>
 File: 51_1.png Graphic file (type png)
 <use 51_1.png>
-Package pdftex.def Info: 51_1.png  used on input line 828.
+Package pdftex.def Info: 51_1.png  used on input line 915.
 (pdftex.def)             Requested size: 232.91742pt x 57.4138pt.
-<51_2.png, id=224, 354.32375pt x 87.32625pt>
+<51_2.png, id=256, 354.32375pt x 87.32625pt>
 File: 51_2.png Graphic file (type png)
 <use 51_2.png>
-Package pdftex.def Info: 51_2.png  used on input line 832.
+Package pdftex.def Info: 51_2.png  used on input line 919.
 (pdftex.def)             Requested size: 230.3077pt x 56.76138pt.
-<51_3.png, id=225, 372.39125pt x 93.34875pt>
+<51_3.png, id=257, 372.39125pt x 93.34875pt>
 File: 51_3.png Graphic file (type png)
 <use 51_3.png>
-Package pdftex.def Info: 51_3.png  used on input line 836.
+Package pdftex.def Info: 51_3.png  used on input line 923.
 (pdftex.def)             Requested size: 242.05144pt x 60.67595pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32 <./51_1.png> <./51_2.png> <./51_3.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34]
+[34 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_2.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/51_3.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [35]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36] (./IPA_szóbeli_tételek.aux)
-Package rerunfilecheck Info: File `IPA_szóbeli_tételek.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+[36]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 1032.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1051
+
+ []
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1063.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1063.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[39] (/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.aux)
+
+Package rerunfilecheck Warning: File `IPA_szóbeli_tételek.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `IPA_szóbeli_tételek.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 39125 strings out of 476025
- 891331 string characters out of 5790017
+ 40283 strings out of 476025
+ 912591 string characters out of 5790017
  1867388 words of memory out of 5000000
- 58886 multiletter control sequences out of 15000+600000
- 528791 words of font info for 85 fonts, out of 8000000 for 9000
+ 59994 multiletter control sequences out of 15000+600000
+ 527439 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,80p,882b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IPA_szóbeli_tételek.pdf (36 pages, 3046346 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.pdf" (39 pages, 3409067 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
