@@ -92,7 +92,7 @@
                 \begin{itemize}
                     \item Emberi nyelven megfogalmazott feladat, cselekvéssorozat. (köznyelv)
                     \item Az algoritmusra nem létezik formális matematikai definíció.
-                    \item Algoritmus: a megoldási eljárást akkor tekintjük algoritmusnak, ha bármilyen bemenet esetén véges számú lépés után eredményt kapunk (a Turing gép megáll).
+                    \item A megoldási eljárást akkor tekintjük algoritmusnak, ha bármilyen bemenet esetén véges számú lépés után eredményt kapunk (a Turing gép megáll).
                 \end{itemize}
             \end{tcolorbox}
 
@@ -105,7 +105,7 @@
                     \item \textbf{Konstans komplexitás:} Az algoritmus futási ideje állandó marad az input méretétől függetlenül. komplexitása: \(O(1)\)
                 \end{itemize}
                 \begin{center}
-                    \fbox{\includegraphics[scale = 0.75]{13.png}}
+                    \fbox{\includegraphics[scale = 0.5]{13.png}}
                 \end{center}
             \end{tcolorbox}
 
@@ -139,26 +139,45 @@
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 8. Ismertesse az 1 bites teljes összeadó példáján keresztül a kombinációs logikai hálózatok elvét!]
+                \textbf{1 bites teljes összeadó igazságtáblája:}
                 \begin{center}
-                    \fbox{\includegraphics[scale = 0.7]{8_1.png}}
+                    \fbox{\includegraphics[scale = 0.5]{8_1.png}}
                 \end{center}
                 \begin{itemize}
-                    \item Bemenetek: \(A,\hspace{3pt}B,\hspace{3pt}C_{in}\); Kimenetek: \(Y,\hspace{3pt}C_{out}\)
+                    \item \textbf{Bemenetek:} \(A,\hspace{3pt}B,\hspace{3pt}C_{in}\); \textbf{Kimenetek:} \(Y,\hspace{3pt}C_{out}\)
                     \item \(Y\hspace{3pt}=\hspace{3pt}A\hspace{3pt}xor\hspace{3pt}B\hspace{3pt}xor\hspace{3pt}C\)
-                    \item \(C{out} = (A\hspace{3pt}and\hspace{3pt}B)\hspace{3pt}or\hspace{3pt}(A\hspace{3pt}and\hspace{3pt}C_{in})\hspace{3pt}or\hspace{3pt}(B\hspace{3pt}and\hspace{3pt}C_{in})\)
+                    \item \(C_{out} = (A\hspace{3pt}and\hspace{3pt}B)\hspace{3pt}or\hspace{3pt}(A\hspace{3pt}and\hspace{3pt}C_{in})\hspace{3pt}or\hspace{3pt}(B\hspace{3pt}and\hspace{3pt}C_{in})\)
                     \item A kombinációs logikai hálózatok kimenetei csak a bementektől függnek. Minden kimenetet egy függvény ír le.\((F_1(X_1, X_2, ... X_n))\)
                 \end{itemize}
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 9. Ismertesse számpéldán keresztül a negatív egész számok kettes komplemens ábrázolását!]
                 \begin{itemize}
-                    \item To be continued…
+                    \item \textbf{Signed (előjeles):} számoknál a legfelső bit értéke egy, ha a szám negatív. Ezzel a tartományt lefeleztük, de negatívba is mehetünk.
+                    \item \textbf{Unsigned:} nincs előjelbit, csak pozitív számok
                 \end{itemize}
+                \begin{center}
+                    \fbox{\includegraphics[scale = 0.5]{9_1.png}}
+                \end{center}
             \end{tcolorbox}
 
             \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 10. Ismertesse az S-R tároló példáján keresztül a szekvenciális logikai hálózatok elvét!]
                 \begin{itemize}
-                    \item To be continued…
+                    \item A szekvenciális hálózat a bemenetektől és a hálózat belső állapotától (amelyet a bemeneti jelek is okoztak) is függ.
+                    \begin{itemize}
+                        \item \textbf{Aszinkron:} nincs ütemező órajel
+                        \item \textbf{Szinkron:} csak órajelnél vált állapotot (pl: cpu)
+                        \begin{center}
+                            \fbox{\includegraphics[scale = 0.5]{10_1.png}}
+                        \end{center}
+                    \end{itemize}
+                    \item \textbf{S-R tároló:}
+                    \begin{itemize}
+                        \item S: “set” 1-re állítja a kimenetet
+                        \item R: “reset” 0-ra állítja a kimenetet
+                        \item S = 0 és R = 0 esetén tartja az előző értéket (memória)
+                        \item S = 1 és R = 1 esetén érvénytelen állapot, mert Q és Q is 0 lenne.
+                    \end{itemize}
                 \end{itemize}
             \end{tcolorbox}
 
@@ -166,15 +185,13 @@
                 \begin{itemize}
                     \item To be continued…
                 \end{itemize}
-            \end{tcolorbox}
-
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 12. Melyik tároló tartalmaz a számítógépben D tárolót?]
+                \textbf{Melyik tároló tartalmaz a számítógépben D tárolót?}
                 \begin{itemize}
                     \item RAM, SSD, HDD
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 13. Ismertesse a tárolók hierarchia szintjeit!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 12. Ismertesse a tárolók hierarchia szintjeit!]
                 \begin{itemize}
                     \item \textbf{Regiszterek:} A regiszterek a CPU belső tárolói, amelyek nagyon gyors hozzáférést biztosítanak az adatokhoz. A regiszterek közvetlenül a CPU-ban találhatóak, és az utasítások végrehajtásához és az adatok köztes tárolásához használhatóak.
                     \item \textbf{Cache:} A cache olyan kis méretű, gyors és közel a processzorhoz elhelyezkedő tároló, amely az aktuálisan leggyakrabban használt adatokat és utasításokat tárolja. Célja, hogy csökkentse a memória-hozzáférési időt és javítsa a rendszer teljesítményét.
@@ -184,13 +201,31 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 14. Ismertesse a CPU részeit és működését egy utasítás végrehajtási folyamatában!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 13. Ismertesse a CPU részeit és működését egy utasítás végrehajtási folyamatában!]
+            A CPU (Central Processing Unit - központi feldolgozó egység) a memóriából olvassa a
+            végrehajtás alatt lévő program bináris utasításait. Az utasításkészlete fontos jellemzője.
+            A mikroprocesszor egy chipen kialakított áramkör, mely a számítógép CPU-jának a
+            funkcióját látja el. Részei:    
                 \begin{itemize}
-                    \item To be continued…
+                    \item \textbf{ALU}
+                    \begin{itemize}
+                        \item Aritmetikai és logikai műveletek végzése
+                        \item Összeadás, kivonás, fixpontos szorzás, osztás (léptetések), lebegőpontos aritmetikai
+                    műveletek (korábban koprocesszor), egyszerű logikai műveletek.
+                    \end{itemize}
+                    \item \textbf{Utasítás dekódoló és vezérlő egység}
+                    \begin{itemize}
+                        \item Felismeri, elemzi (dekódolja) a gépi nyelvű program utasításait, az utasítások alapján működtetik a CPU többi segítségét 
+                    \end{itemize}
+                    \item \textbf{Regiszterek}
+                    \begin{itemize}
+                        \item Chipen belüli, közvetlen elérésű tároló elemek.
+                        \item Feladatuk műveletvégzéskor az operandusok tárolása, illetve a címek előállítása.
+                    \end{itemize}
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 1.]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 14. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 1.]
                 \begin{itemize}
                     \item \textbf{Polling}
                     \begin{itemize}
@@ -220,7 +255,7 @@
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 2.]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 14. Ismertesse a periféria csatolási módszereket{,} módszerenként kitérve az adott módszer előnyére{,} és hátrányára! Part 2.]
                 \begin{itemize}
                     \item \textbf{DMA nélkül}
                     \begin{itemize}
@@ -250,7 +285,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 16. Ismertesse az alapvető algoritmus-elemeket a Böhm-Jacopini tétel alapján!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 15. Ismertesse az alapvető algoritmus-elemeket a Böhm-Jacopini tétel alapján!]
                 \begin{itemize}
                     \item Böhm-Jacopini tétele: Minden algoritmus leírható 3 logikai struktúrával:
                     \item Rákövetkezés (konkatenáció):
@@ -282,7 +317,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 17. Ismertesse az alapvető adatszerkezet típusokat és ezek műveleteit!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 16. Ismertesse az alapvető adatszerkezet típusokat és ezek műveleteit!]
                 \begin{itemize}
                     \item \textbf{Adatszerkezet:} egyszerű vagy összetett alapadatok rendszerének matematikai, logikai modellje
                     \item \textbf{Típusok:}
@@ -307,7 +342,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 18. Ismertesse a lineáris és a többdimenziós tömbök memóriamodelljét!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 17. Ismertesse a lineáris és a többdimenziós tömbök memóriamodelljét!]
                 \textbf{Lineáris tömbök:}
                 \begin{itemize}
                     \item Azonos típusú (méretű) adatelemek
@@ -332,7 +367,7 @@
                 \end{center}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 19. Ismertesse a kapcsolt lista adatszerkezet felépítését és gyakori műveleteit!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 18. Ismertesse a kapcsolt lista adatszerkezet felépítését és gyakori műveleteit!]
                 \textbf{A kapcsolt lista adatszerkezet felépítése:}
                 \begin{itemize}
                     \item Csomópontokból áll, amelyek tartalmazzák az adatot és egy mutatót a következő csomópontra.
@@ -368,7 +403,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 20. Ismertesse a gráf definícióját valamint az alábbi gráfelméleti fogalmakat: út{,} kör{,} összefüggő{,} teljes{,} címkézett{,} súlyozott és irányított!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 19. Ismertesse a gráf definícióját valamint az alábbi gráfelméleti fogalmakat: út{,} kör{,} összefüggő{,} teljes{,} címkézett{,} súlyozott és irányított!]
                 \begin{itemize}
                     \item \textbf{Gráf definíciója:} A gráf egy matematikai struktúra, amely csomópontokból (vagy csúcsokból) és azokat összekötő élekből áll. A gráfot grafikusan ábrázoljuk, ahol a csomópontokat pontokkal, az éleket pedig vonalakkal jelöljük.
                     \item \textbf{Út:} Az út olyan sorozat vagy láncolat, amelyben egymás után következnek a gráf csomópontjai úgy, hogy az élek az egymást követő csomópontokat összekötik.
@@ -381,7 +416,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 21. Ismertesse a gráfok szomszédsági mátrixát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 20. Ismertesse a gráfok szomszédsági mátrixát!]
                 \begin{itemize}
                     \item \textbf{Szomszédossági mátrix:} \(a_{ij} = 1\), ha \(i\)-ből \(j\)-be halad él, egyébként \(a_{ij}\) = 0
                     \begin{center}
@@ -394,7 +429,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 22. Ismertesse az általános fa felépítését és tárolását számítógépen!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 21. Ismertesse az általános fa felépítését és tárolását számítógépen!]
                 \begin{itemize}
                     \item Elemek véges halmaza (T), amely 
                     \begin{itemize}
@@ -418,7 +453,7 @@
                 \end{center}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 23. Ismertesse a bináris fák szerkezetét és tárolási lehetőségeit számítógépen!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 22. Ismertesse a bináris fák szerkezetét és tárolási lehetőségeit számítógépen!]
                 \begin{itemize}
                     \item Elemek véges halmaza, amely, vagy üres, vagy egyetlen T elemhez (gyökér) kapcsolt két diszjunkt T1 és T2 részfa alkotja\\
                     \begin{center}
@@ -449,7 +484,7 @@
                 \end{center}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 24. Ismertesse a veremtár működését!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 23. Ismertesse a veremtár működését!]
                 \begin{itemize}
                     \item \textbf{LIFO:} az utoljára berakott elem jön ki először (Last In First Out)
                     \item \textbf{Push:} elemet a verembe rak
@@ -468,7 +503,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 25. Ismertesse a sor adatszerkezet és a ciklikus buffer működését!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 24. Ismertesse a sor adatszerkezet és a ciklikus buffer működését!]
                 \begin{itemize}
                     \item \textbf{FIFO:} First In, First Out
                     \item Sor tárolásához 2 mutató szükséges: beírási mutató (WP), kiolvasási mutató (RP). A kiolvasási nem előzheti meg a beírásit. A mutató index is lehet a tömbelemre.
@@ -491,7 +526,7 @@
                 \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 26. Ismertesse számpéldával a gyorsrendezés (quick sort) algoritmust! Adja meg az algoritmus átlagos és legrosszabb komplexitását!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 25. Ismertesse számpéldával a gyorsrendezés (quick sort) algoritmust! Adja meg az algoritmus átlagos és legrosszabb komplexitását!]
                 \begin{itemize}
                     \item Legyen \(S\) halmaz a rendezendő elemek halmaza
                     \item Válasszunk egy \(t\) támpont elemet.
@@ -531,7 +566,7 @@ void quickSort(int arr[], int low, int high) {
             \end{Verbatim}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 27. Ismertesse az egyed-kapcsolat modellt és alábbi fogalmait: egyedtípus{,} kapcsolat- típus{,} tulajdonság!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 26. Ismertesse az egyed-kapcsolat modellt és alábbi fogalmait: egyedtípus{,} kapcsolat- típus{,} tulajdonság!]
                                         \begin{itemize}
                                             \item \textbf{Egyedtípus (Entity type):} Az egyedek osztályát vagy kategóriáját jelöli. Az egyedtípus meghatározza, hogy az egyedek milyen tulajdonságokkal rendelkeznek és milyen kapcsolatokat tarthatnak fenn más egyedekkel. Például lehet egy "Diák" egyedtípus, amelynek tulajdonságai lehetnek a neve, életkora, osztálya stb.
                                             \item \textbf{Kapcsolat-típus (Relationship type):} Az egyedek közötti kapcsolatot jelöli. A kapcsolat-típus meghatározza, hogy az egyedek milyen módon kapcsolódnak egymáshoz. Például lehet egy "Tanul" kapcsolat-típus, amely egy diák és egy tantárgy közötti kapcsolatot reprezentál.
@@ -539,7 +574,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 28. Ismertesse a relációs adatbázisok felépítését és alábbi fogalmait: fokszám{,} kardinalitás{,} attribútum{,} vetítés{,} kiválasztás{,} kulcs{,} szuperkulcs{,} elsődleges kulcs{,} külső kulcs.]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 27. Ismertesse a relációs adatbázisok felépítését és alábbi fogalmait: fokszám{,} kardinalitás{,} attribútum{,} vetítés{,} kiválasztás{,} kulcs{,} szuperkulcs{,} elsődleges kulcs{,} külső kulcs.]
                                         \begin{itemize}
                                             \item A matematikában reláción n darab halmaz \textbf{direkt szorzatának részhalmazát} értjük.
                                             \item A relációt \textbf{név}vel azonosítjuk.
@@ -563,7 +598,7 @@ void quickSort(int arr[], int low, int high) {
                                         
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 29. Tervezzen egy relációs adatbázis-szerkezetet{,} amely M:N típusú kapcsolatot tud tárolni!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 28. Tervezzen egy relációs adatbázis-szerkezetet{,} amely M:N típusú kapcsolatot tud tárolni!]
                                         \textbf{Példa, mely tárolja egy bolt termékeinek és vásárlóinak kapcsolatát.}
                                         \begin{itemize}
                                             \item 1. Tábla: Products
@@ -591,7 +626,7 @@ void quickSort(int arr[], int low, int high) {
                                         A Purchases tábla a kapcsolatot tárolja a vásárlók és a termékek között. Minden sor egy adott vásárlást reprezentál, ahol a \textbf{\(buyer_{id}\)} mező a kapcsolódó vásárlót azonosítja, a \textbf{\(product_{id}\)} mező pedig a kapcsolódó terméket azonosítja. Így a Purchases tábla segítségével nyomon követhetjük, hogy melyik vásárló melyik terméket vásárolta.    
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 30. Ismertesse a kernel feladatait az operációs rendszerben!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 29. Ismertesse a kernel feladatait az operációs rendszerben!]
                                         \begin{itemize}
                                             \item Folyamat kezelés (Process management)
                                             \item Memória kezelés (allokáció, felszabadítás, relokáció)
@@ -603,7 +638,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 31. Ismertesse a folyamatok típusait a többi folyamathoz viszonyulás alapján! ]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 30. Ismertesse a folyamatok típusait a többi folyamathoz viszonyulás alapján! ]
                                         \begin{itemize}
                                             \item \textbf{Független folyamatok:} egymás működését semmilyen módon nem befolyásolják.
                                             \item \textbf{Versengő folyamatok:} nem ismerik egymást, de közös erőforrásokon kell osztozniuk.
@@ -611,7 +646,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 32. Ismertesse a folyamatok kommunikációját bináris szemafor segítségével!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 31. Ismertesse a folyamatok kommunikációját bináris szemafor segítségével!]
                                         \begin{itemize}
                                             \item \textbf{Vezérlés:} szemafor segítségével.
                                         \end{itemize}
@@ -627,7 +662,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{center}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 33. Ismertesse a folyamatok kommunikációját postaláda-kezelés esetén]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 32. Ismertesse a folyamatok kommunikációját postaláda-kezelés esetén]
                                         \begin{itemize}
                                             \item Postaláda: olyan közös adatterület, ahová EGYNÉL TÖBB (pl. N db) üzenet írható
                                         \end{itemize}
@@ -647,7 +682,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{center}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 34. Ismertesse példával a bankár algoritmust!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 33. Ismertesse példával a bankár algoritmust!]
                                         \begin{itemize}
                                             \item Biztonságosan tervezett az a folyamatokat és erőforrásokat tartalmazó rendszer, amelyben létezik a folyamatoknak (legalább egy) olyan sorrendje, amely szerint végrehajtva őket, azok maximális erőforrás igénye is kielégíthető.
                                             \item A biztonságos rendszerben nem lehetséges holtpont kialakulása.
@@ -671,7 +706,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{center}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 35. Ismertesse az operációs rendszerek feladat-ütemezési algoritmusait!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 34. Ismertesse az operációs rendszerek feladat-ütemezési algoritmusait!]
                                         Többfeladatos operációs rendszerben a folyamatok közti átkapcsolást végzik.\\    
                                         \textbf{Alap algoritmusok:}
                                         \begin{itemize}
@@ -689,7 +724,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 36. Ismertesse a C nyelvű forráskód fordítási és futtatási folyamatát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 35. Ismertesse a C nyelvű forráskód fordítási és futtatási folyamatát!]
                                         \begin{center}
                                             \fbox{\includegraphics[scale = 0.5]{36_1.png}}                            
                                         \end{center}
@@ -698,7 +733,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{center}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 37. Ismertesse a UNIX file-elérési jogok oktális kódolását!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 36. Ismertesse a UNIX file-elérési jogok oktális kódolását!]
                                         A UNIX file-elérési jogok oktális kódolása három számjeggyel történik, ahol minden számjegy a jogosultságok egy csoportját reprezentálja. Az oktális számjegyeket 0-tól 7-ig lehet használni, és a következő jelentéseik vannak:\\
                                         \textbf{1. Az első számjegy a tulajdonos jogait reprezentálja}    
                                         \begin{itemize}
@@ -722,7 +757,7 @@ void quickSort(int arr[], int low, int high) {
                                         \textbf{Példa:} jogosultságokat össze lehet adni a megfelelő számjegyekkel. Például, ha a tulajdonosnak olvasási, írási és végrehajtási jogai vannak (7), a csoportnak csak olvasási és végrehajtási jogai vannak (5), és a többi felhasználónak csak végrehajtási joga van (1), akkor a jogokat az oktális kódolásban a következőképpen reprezentálhatjuk: 751\\
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 38. Ismertesse a hírközlés Shannon-féle modelljét a modellben található egységek funkciójának leírásával!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 37. Ismertesse a hírközlés Shannon-féle modelljét a modellben található egységek funkciójának leírásával!]
                                         A hírközlés során egy üzenetet juttatunk el térben és/vagy időben másik pontra.
                                         \begin{center}
                                             \fbox{\includegraphics[scale = 0.5]{38_1.png}}                            
@@ -738,7 +773,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{enumerate}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 39. Ismertesse az információ mennyiség Hartley-féle és Shannon-féle meghatározását!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 38. Ismertesse az információ mennyiség Hartley-féle és Shannon-féle meghatározását!]
                                         Az információvalamely véges számú, előre ismert esemény közül annak megnevezése, hogy melyik következett be.   
                                         \begin{itemize} 
                                             \item \textcolor{red}{\textbf{Hartley:}} m számú, azonos valószínűségű esemény közül egy megnevezésével nyert információ: \(I =log_2m\)
@@ -746,7 +781,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 40. Ismertesse számpéldával a Huffman-kódolást!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 39. Ismertesse számpéldával a Huffman-kódolást!]
                                         A legrövidebb átlagos szóhosszúságú prefix kód.
                                         \begin{enumerate}
                                             \item Valószínűségek szerint sorba rendezia forrásszimbólumokat.
@@ -761,7 +796,7 @@ void quickSort(int arr[], int low, int high) {
                                         
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 41. Ismertessen fizikai és logikai hálózati topológiákat!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 40. Ismertessen fizikai és logikai hálózati topológiákat!]
                                         \textbf{Fizikai hálózati topológiák:}    
                                         \begin{enumerate}
                                             \item \textbf{Busz topológia:} Az eszközök egy közös adatbuszon vannak összekapcsolva. Az adatokat az adatbuszon továbbítják, és az összes eszköz figyeli a buszt. Az adatok mindkét irányban közösek a buszon.
@@ -786,7 +821,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
                                     
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 42. Ismertesse az ethernet hálózaton használt eszközöket!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 41. Ismertesse az ethernet hálózaton használt eszközöket!]
                                         \textbf{EZT ÁT KELL NÉZNI}   
                                         \begin{itemize}
                                             \item \textbf{Számítógép:} A számítógépek az ethernet hálózatok alapvető részei, amelyek csatlakoznak a hálózati infrastruktúrához és kommunikálnak más eszközökkel.
@@ -805,7 +840,7 @@ void quickSort(int arr[], int low, int high) {
                                         \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 43. Ismertesse az internetes címek maszkolási algoritmusát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 42. Ismertesse az internetes címek maszkolási algoritmusát!]
                 \begin{itemize}
                     \item \textbf{IP-cím:} Az IPv4 protokoll használ 32 bites IP-címeket, amelyeket négy oktettre osztanak fel (pl. 192.168.0.1).
                     \item \textbf{Hálózati maszk:} A hálózati maszk meghatározza, hogy az IP-cím hálózati része hogyan van elkülönítve a hoszt résztől. Pl. 255.255.255.0 jelenti, hogy az első három oktett a hálózat, az utolsó oktett pedig a hoszt része.
@@ -823,7 +858,7 @@ void quickSort(int arr[], int low, int high) {
                 \textcolor{red}{\textbf{A maszkolásnak fontos az IP-hálózatok hatékony tervezésében, kezelésében és biztonságában.}}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 44. Ismertesse a NAT (Network Address Translator) eszközt használatát az internethez való kapcsolódásban!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 43. Ismertesse a NAT (Network Address Translator) eszközt használatát az internethez való kapcsolódásban!]
                 \begin{itemize}
                     \item \textbf{Privát IP-címek:} Az otthoni vagy vállalati hálózatokon belül az eszközök privát IP-címeket használnak, amelyek nem egyediek a globális interneten.
                     \item \textbf{Közös IP-cím:} A NAT-eszköz az internetre kapcsolódó privát hálózatokat egy közös IP-cím alatt reprezentálja.
@@ -834,7 +869,7 @@ void quickSort(int arr[], int low, int high) {
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 45. Ismertesse az internet DNS rendszerét! (Domain Name System)]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 44. Ismertesse az internet DNS rendszerét! (Domain Name System)]
                 \begin{itemize}
                     \item \textbf{DNS rendszer:} Elérési útvonal a tartomány nevek (pl. example.com) és az IP-címek között.
                     \item \textbf{DNS kérések:} Kliensek (pl. böngészők) DNS-kérést indítanak a webhelyek IP-címének megszerzéséhez.
@@ -846,7 +881,7 @@ void quickSort(int arr[], int low, int high) {
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 46. Rendszerezze a tömörítő eljárásokat az eredeti adat visszaállíthatósága szerint!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 45. Rendszerezze a tömörítő eljárásokat az eredeti adat visszaállíthatósága szerint!]
                 \begin{itemize}
                     \item \textbf{Lossless:} Fájlokhoz veszteség mentes (zip)
                     \item \textbf{Lossy:} Kép és hangadatokhoz veszteséges (jpg, mp3). Codec: tömörített és nyers (raw) adat közti szoftver vagy hardver.
@@ -861,7 +896,7 @@ void quickSort(int arr[], int low, int high) {
             \end{itemize}
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 47. Ismertesse a C nyelv alapvető típusait{,} tárolási méretükkel! Hol vannak ezek a méretek definiálva (típusonként eltérő)?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 46. Ismertesse a C nyelv alapvető típusait{,} tárolási méretükkel! Hol vannak ezek a méretek definiálva (típusonként eltérő)?]
                 A C nyelvben számos alapvető adattípus található, amelyek különböző tárolási mérettel rendelkeznek. Ezek az alapvető típusok és a tárolási méretek általában platformfüggőek, tehát a méretek eltérhetnek a különböző rendszerek és implementációk között. Azonban a C nyelv szabványa definiál néhány minimális tárolási méretet az alábbi alapvető típusok számára:    
                 \begin{itemize}
                     \item \textbf{char:} Legalább 1 bájt méretű, ami általában 8 bitet jelent. 
@@ -884,7 +919,7 @@ return 0; }
                 \end{Verbatim}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 48. Ismertesse példával a pre-és posztinkrementálás közti különbséget!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 47. Ismertesse példával a pre-és posztinkrementálás közti különbséget!]
                 \begin{itemize}
                     \item A preinkrementálás esetén az érték előbb növelődik, majd az új érték adódik át a kifejezésben vagy értékadásban részt vevő változónak. A posztinkrementálás esetén viszont az értékadás vagy a kifejezés kiértékelése előtt az eredeti érték kerül átadásra, majd csak utána növekszik az érték.
                 \end{itemize}
@@ -902,7 +937,7 @@ return 0; }
                 \end{Verbatim}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 49.  Ismertesse a C nyelv háromoperandusú operátorát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 48.  Ismertesse a C nyelv háromoperandusú operátorát!]
             \begin{Verbatim}
 Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
             \end{Verbatim}
@@ -913,11 +948,11 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 50. Ismertesse a „break” utasítás szerepét a „switch” utasításban!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 49. Ismertesse a „break” utasítás szerepét a „switch” utasításban!]
                 A \textcolor{red}{\textbf{case}} esetek csak belépési pontok. Ha a \textcolor{red}{\textbf{switch}}-ben lévő változó értéke egyenlő a \textcolor{red}{\textbf{case}}-ben található értékkel, a vezérlés oda kerül. Ha nem írtunk \textcolor{red}{\textbf{break}}-et, a végrehajtás után a következő \textcolor{red}{\textbf{case}}-ben található utasítást is végrehajtja, a végéig  utána a \textcolor{red}{\textbf{switch}} végétől folytatja Ha a \textcolor{red}{\textbf{break}} az utolsó eset, a záró \textcolor{red}{\textbf{break}} elhagyható.
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 51. Ismertesse példával a C nyelvben alkalmazható bitműveleteket!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 50. Ismertesse példával a C nyelvben alkalmazható bitműveleteket!]
                 \begin{itemize}
                     \item \textbf{Egyoperandusú negálás:} minden bitet külön negál (0 --> 1 , 1 --> 0)
                     \item \textbf{Kétoperandusú műveletek:}
@@ -940,14 +975,14 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 A logikai műveletek (ÉS, VAGY, XOR stb.) azért voltak szükségesek a bitműveletek mellett, mert ezekkel a műveletekkel egyszerűen és hatékonyan manipulálhatók az egyes bitek egy adott adatban. Például bitenkénti ÉS használatával egyes bitek maszkolhatók, logikai VAGY használatával bitjei beállíthatók, XOR használatával bitjei inverz állapotba hozhatók stb. Ez lehetővé teszi a hatékonyabb és precízebb adatmanipulációt.
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 52. Ismertesse a C nyelv „pointer” fogalmát és az indirekció fogalmát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 51. Ismertesse a C nyelv „pointer” fogalmát és az indirekció fogalmát!]
                 \begin{itemize}
                     \item Annak a változónak amely nem adatot, hanem címet tárol, Pointernek nevezzük.
                     \item Az adatot pointer használatakor nem direktben érjük el (mint a sima változónál), hanem indirektben (először el kell menni a címéért). Az indirekció a jele a „ * ”.
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 53. Ismertesse a pointer aritmetikát!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 52. Ismertesse a pointer aritmetikát!]
                 \begin{itemize}
                     \item A fordító értelmez néhány műveletet a pointerekkel is.
                     \item A pointer és egy egész szám összege/különbsége: a pointer után/előtt álló adat a memóriában
@@ -961,7 +996,7 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 54. Ismertesse a tömbök használatánál előforduló komplexitás-típusokat! Mondjon példát arra a műveletre{,} amelyik adott komplexitású!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 53. Ismertesse a tömbök használatánál előforduló komplexitás-típusokat! Mondjon példát arra a műveletre{,} amelyik adott komplexitású!]
                 \begin{itemize}
                     \item \textbf{Konstans:} egy elem helyének (címének) kiszámítása, elem elérése
                     \item \textbf{Lineáris:} összes elem elérése (bejárás)
@@ -970,7 +1005,7 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 55. Ismertesse a tömbből való kicímzés veszélyeit!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 54. Ismertesse a tömbből való kicímzés veszélyeit!]
                 \begin{itemize}
                     \item \textbf{Túlindexelés:}
                     \begin{itemize}
@@ -1000,7 +1035,7 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 Nem megfelelő tömbkezelés hibás működéshez, memóriaproblémákhoz vagy adatvesztéshez vezethet
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 56. Ismertesse a tömbök {[ ]} operátorának jelentését! Hogy írható fel a {[ ]} operátor pointeraritmetikát felhasználva?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 55. Ismertesse a tömbök {[ ]} operátorának jelentését! Hogy írható fel a {[ ]} operátor pointeraritmetikát felhasználva?]
                 \begin{itemize}
                     \item A [ ] operátor segítségével hivatkozhatunk és manipulálhatunk egy tömb elemire. Az operátor index paramétert vár, amely megadja, hogy melyik elemre szeretnénk hivatkozni a tömbben. Az index 0-tól kezdődik, és a tömb méretével egyenlő vagy annál kisebb egész értéket vehet fel.
                     \item A [ ] operátor pointer aritmetikával is felírható. Ha XYZ egy tömbre mutató pointer, és index az elem indexe, akkor az alábbi módon használható fel a pointer aritmetika: \(XYZ[index]\) ekvivalens a \(*(XYZ + index)\) kifejezéssel.
@@ -1009,7 +1044,7 @@ Logikai_kifejezés ? érték_ha_igaz : érték_ha_hamis
                 Fontos megjegyezni, hogy a [ ] operátor használata a tömb méretét nem ellenőrzi, így fontos gondoskodni arról, hogy az index ne lépje túl a tömb határait.
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 57. Ismertesse a szomszédcserés rendezés működését és komplexitását!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 56. Ismertesse a szomszédcserés rendezés működését és komplexitását!]
                 \begin{itemize}
                     \item A legegyszerűbb(en megírható), kis elemszámra hatékony rendezés a szomszédcserés (buborék) rendezés. Elve:
                     \begin{itemize}
@@ -1037,7 +1072,7 @@ end procedure
                 \end{Verbatim}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 58. Ismertesse a függvények írásának és paraméterezésének nyelvi szabályait a C nyelvben!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 57. Ismertesse a függvények írásának és paraméterezésének nyelvi szabályait a C nyelvben!]
                 \begin{itemize}
                     \item Minden nyelvi elemet használat előtt deklarálni kell, a változókat is, a struktúrákat is, és a függvényeket is.
                     \item Függvényen belül függvény nem definiálható (csak 1 szint létezik a memóriában).
@@ -1049,27 +1084,27 @@ end procedure
                 A használat meghívással valósul meg. A veremtárba elmentjük, hogy mi következik, majd a függvény memóriacímére ugrunk a memóriában a cpu végrehajtó utasítás pointerével (pl. pc-nél: IP), majd a függvény végén a veremtárból felolvasott címen (a hívás utáni címen) folytatjuk.
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 59. Ismertesse a formális és aktuális paraméter fogalmát a C nyelv függvényeinél!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 58. Ismertesse a formális és aktuális paraméter fogalmát a C nyelv függvényeinél!]
                 \begin{itemize}
                     \item \textbf{Formális Paraméternek:} A függvény neve utáni zárójelben a paramétereit adhatjuk meg. Minden paraméter típusát egyenként meg kell adni.
                     \item \textbf{Aktuális paraméterek:} Ezek a paraméterek az adott függvényhívás során megadott értékek vagy kifejezések. Az aktuális paraméterek a függvényhívás során átadódnak a függvénynek, és azok a formális paraméterekkel kerülnek párosításra.
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 60. Milyen paraméter-átadást használ a C nyelv?]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 59. Milyen paraméter-átadást használ a C nyelv? Hogy tudja megváltoztatni a függvény a paraméterei értékét úgy{,} hogy a hívó folyamatban is a változtatott érték szerepeljen?]
                 A C nyelv alapértelmezetten érték szerinti paraméter-átadást használ. Ez azt jelenti, hogy amikor egy függvénynek átadunk egy paramétert, akkor a függvény a paraméter értékének másolatát kapja meg, és a függvényen belül végzett módosítások nem változtatják meg az eredeti változó értékét a hívó folyamatban.\\ \\
                 \textbf{Hogy tudja megváltoztatni a függvény aparaméterei értékét úgy, hogy a hívó folyamatban is a változtatott érték szerepeljen?}
                 A C nyelvben a paraméterek értékének megváltoztatásához pointer-eket használhatunk. Azaz, ha egy függvénynek átadunk egy paramétert cím szerint ('\&' operátorral), akkor a függvényen belül közvetlenül a paraméter címére mutató pointerrel dolgozhatunk, és az értékeket közvetlenül módosíthatjuk, ami a hívó folyamatban is érvényesül.
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 61. Ismertesse a lokális és globális változó fogalmakat!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 60. Ismertesse a lokális és globális változó fogalmakat!]
                 \begin{itemize}
                     \item Minden változó, amelyet egy program blokkon \(\{\}\) belül deklaráltunk, a blokkon belül lokálisváltozóként működnek, a blokk végén \(\}\) megszűnnek. Ha még egyszer meghívjuk a függvényt, a megszűnt változót újra deklaráljuk, az előző megszűnésekor lévő érték nem lesz benne.
                     \item Azok a változók, amelyek a file szintjén (vagyis a függvényeken kívül) lettek deklarálva, globálisváltozók. Minden függvényben ugyanazt jelentik. Ha adott nevű változóból van lokális és globális is, a változó neve a lokális változót jelenti, elérakva a :: operátort a globális változót. Globális változó megadható .hfájlban is extern-ként, valamint valamelyik .c-ben (csak 1-ben) deklarálva.
                 \end{itemize}
             \end{tcolorbox}
 
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 62. Ismertesse a string tárolás C nyelvű megvalósítást{,} valamint a stringek kezelésére leggyakrabban használt függvényeket!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 61. Ismertesse a string tárolás C nyelvű megvalósítást{,} valamint a stringek kezelésére leggyakrabban használt függvényeket!]
             \textbf{Deklaráció és helyfoglalás:}    
                 \begin{itemize}
                     \item \(char*stringnév = (char*)malloc(string mérete);\)
@@ -1088,7 +1123,7 @@ end procedure
             Ezek a függvények a \(<string.h>\) könyvtárban találhatók
             \end{tcolorbox}
             
-            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 63. Ismertesse a szöveges fájlok módosításának lépéseit!]
+            \begin{tcolorbox}[colback=blue!5!white,colframe=blue!50!black,title= 62. Ismertesse a szöveges fájlok módosításának lépéseit!]
                 \begin{itemize}
                     \item \textbf{Fájl megnyitása:} \(fopen()\) függvény (fájl megnyitása olvasásra/írásra).
                     \item \textbf{Fájl tartalmának módosítása:} \(fread()\), \(fwrite()\), \(fscanf()\), \(fprintf()\) függvények (adatok olvasása és írása a fájlba).
