@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  24 AUG 2023 12:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.18)  28 AUG 2023 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1171,18 +1171,18 @@ Package pdftex.def Info: 23_1.png  used on input line 499.
 <23_2.png, id=147, 487.8225pt x 262.9825pt>
 File: 23_2.png Graphic file (type png)
 <use 23_2.png>
-Package pdftex.def Info: 23_2.png  used on input line 516.
-(pdftex.def)             Requested size: 146.34787pt x 78.89534pt.
+Package pdftex.def Info: 23_2.png  used on input line 517.
+(pdftex.def)             Requested size: 195.12553pt x 105.19113pt.
 <23_3.png, id=148, 580.1675pt x 317.185pt>
 File: 23_3.png Graphic file (type png)
 <use 23_3.png>
-Package pdftex.def Info: 23_3.png  used on input line 519.
-(pdftex.def)             Requested size: 145.0415pt x 79.29605pt.
+Package pdftex.def Info: 23_3.png  used on input line 517.
+(pdftex.def)             Requested size: 193.19096pt x 105.61996pt.
 <23_4.png, id=149, 496.85625pt x 263.98625pt>
 File: 23_4.png Graphic file (type png)
 <use 23_4.png>
-Package pdftex.def Info: 23_4.png  used on input line 522.
-(pdftex.def)             Requested size: 149.05801pt x 79.19647pt.
+Package pdftex.def Info: 23_4.png  used on input line 521.
+(pdftex.def)             Requested size: 223.58324pt x 118.79271pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1191,7 +1191,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [16 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/22_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/22_2.png>]
-Overfull \vbox (27.33075pt too high) has occurred while \output is active []
+Overfull \vbox (15.63557pt too high) has occurred while \output is active []
 
 
 
@@ -1205,9 +1205,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <25_1.png, id=164, 316.18124pt x 64.24pt>
 File: 25_1.png Graphic file (type png)
 <use 25_1.png>
-Package pdftex.def Info: 25_1.png  used on input line 553.
+Package pdftex.def Info: 25_1.png  used on input line 552.
 (pdftex.def)             Requested size: 252.94533pt x 51.39206pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 581.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 580.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -1238,12 +1238,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <32_1.png, id=181, 515.9275pt x 142.5325pt>
 File: 32_1.png Graphic file (type png)
 <use 32_1.png>
-Package pdftex.def Info: 32_1.png  used on input line 693.
+Package pdftex.def Info: 32_1.png  used on input line 692.
 (pdftex.def)             Requested size: 309.55888pt x 85.52014pt.
 <32_2.png, id=182, 564.1075pt x 606.265pt>
 File: 32_2.png Graphic file (type png)
 <use 32_2.png>
-Package pdftex.def Info: 32_2.png  used on input line 700.
+Package pdftex.def Info: 32_2.png  used on input line 699.
 (pdftex.def)             Requested size: 423.07957pt x 454.69763pt.
 
 
@@ -1257,12 +1257,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <33_1.png, id=187, 520.94624pt x 291.0875pt>
 File: 33_1.png Graphic file (type png)
 <use 33_1.png>
-Package pdftex.def Info: 33_1.png  used on input line 709.
+Package pdftex.def Info: 33_1.png  used on input line 708.
 (pdftex.def)             Requested size: 364.65988pt x 203.75984pt.
 <33_2.png, id=188, 557.08125pt x 291.0875pt>
 File: 33_2.png Graphic file (type png)
 <use 33_2.png>
-Package pdftex.def Info: 33_2.png  used on input line 720.
+Package pdftex.def Info: 33_2.png  used on input line 719.
 (pdftex.def)             Requested size: 389.95422pt x 203.75984pt.
 
 
@@ -1273,31 +1273,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/32_1.png> </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/32_2.png>]
-<34_1.png, id=195, 792.9625pt x 541.02126pt>
+<34_1.png, id=195, 627.34375pt x 367.3725pt>
 File: 34_1.png Graphic file (type png)
 <use 34_1.png>
-Package pdftex.def Info: 34_1.png  used on input line 732.
-(pdftex.def)             Requested size: 158.58969pt x 108.20233pt.
+Package pdftex.def Info: 34_1.png  used on input line 731.
+(pdftex.def)             Requested size: 198.55243pt x 116.2723pt.
 <34_2.png, id=196, 793.96625pt x 465.74pt>
 File: 34_2.png Graphic file (type png)
 <use 34_2.png>
-Package pdftex.def Info: 34_2.png  used on input line 735.
-(pdftex.def)             Requested size: 158.79044pt x 93.14635pt.
+Package pdftex.def Info: 34_2.png  used on input line 731.
+(pdftex.def)             Requested size: 198.49107pt x 116.43471pt.
 <34_3.png, id=197, 794.97pt x 464.73625pt>
 File: 34_3.png Graphic file (type png)
 <use 34_3.png>
-Package pdftex.def Info: 34_3.png  used on input line 738.
-(pdftex.def)             Requested size: 158.99118pt x 92.9456pt.
+Package pdftex.def Info: 34_3.png  used on input line 732.
+(pdftex.def)             Requested size: 198.742pt x 116.18378pt.
 <34_4.png, id=198, 792.9625pt x 463.7325pt>
 File: 34_4.png Graphic file (type png)
 <use 34_4.png>
-Package pdftex.def Info: 34_4.png  used on input line 741.
-(pdftex.def)             Requested size: 158.58969pt x 92.74484pt.
+Package pdftex.def Info: 34_4.png  used on input line 732.
+(pdftex.def)             Requested size: 198.63942pt x 116.16634pt.
 <34_5.png, id=199, 792.9625pt x 462.72874pt>
 File: 34_5.png Graphic file (type png)
 <use 34_5.png>
-Package pdftex.def Info: 34_5.png  used on input line 744.
-(pdftex.def)             Requested size: 158.58969pt x 92.5441pt.
+Package pdftex.def Info: 34_5.png  used on input line 736.
+(pdftex.def)             Requested size: 317.17938pt x 185.08821pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1310,7 +1310,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <34.png, id=206, 687.56876pt x 370.38374pt>
 File: 34.png Graphic file (type png)
 <use 34.png>
-Package pdftex.def Info: 34.png  used on input line 765.
+Package pdftex.def Info: 34.png  used on input line 757.
 (pdftex.def)             Requested size: 343.78354pt x 185.1914pt.
 
 
@@ -1324,12 +1324,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <36_1.png, id=216, 787.94376pt x 455.7025pt>
 File: 36_1.png Graphic file (type png)
 <use 36_1.png>
-Package pdftex.def Info: 36_1.png  used on input line 771.
+Package pdftex.def Info: 36_1.png  used on input line 763.
 (pdftex.def)             Requested size: 393.97092pt x 227.85068pt.
 <36_2.png, id=217, 782.925pt x 455.7025pt>
 File: 36_2.png Graphic file (type png)
 <use 36_2.png>
-Package pdftex.def Info: 36_2.png  used on input line 774.
+Package pdftex.def Info: 36_2.png  used on input line 766.
 (pdftex.def)             Requested size: 391.46155pt x 227.85068pt.
 
 
@@ -1340,14 +1340,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/34.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
 
  []
 
 <36_3.png, id=224, 423.5825pt x 221.82875pt>
 File: 36_3.png Graphic file (type png)
 <use 36_3.png>
-Package pdftex.def Info: 36_3.png  used on input line 801.
+Package pdftex.def Info: 36_3.png  used on input line 793.
 (pdftex.def)             Requested size: 381.22073pt x 199.64401pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1360,7 +1360,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <38_1.png, id=231, 783.92876pt x 110.4125pt>
 File: 38_1.png Graphic file (type png)
 <use 38_1.png>
-Package pdftex.def Info: 38_1.png  used on input line 808.
+Package pdftex.def Info: 38_1.png  used on input line 800.
 (pdftex.def)             Requested size: 391.96342pt x 55.2061pt.
 
 
@@ -1374,7 +1374,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <40_1.png, id=237, 373.395pt x 249.93375pt>
 File: 40_1.png Graphic file (type png)
 <use 40_1.png>
-Package pdftex.def Info: 40_1.png  used on input line 839.
+Package pdftex.def Info: 40_1.png  used on input line 831.
 (pdftex.def)             Requested size: 242.70387pt x 162.455pt.
 
 
@@ -1388,7 +1388,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <41_1.png, id=251, 499.8675pt x 237.88875pt>
 File: 41_1.png Graphic file (type png)
 <use 41_1.png>
-Package pdftex.def Info: 41_1.png  used on input line 853.
+Package pdftex.def Info: 41_1.png  used on input line 845.
 (pdftex.def)             Requested size: 199.94345pt x 95.15381pt.
 
 
@@ -1402,7 +1402,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <41.png, id=262, 560.0925pt x 362.35374pt>
 File: 41.png Graphic file (type png)
 <use 41.png>
-Package pdftex.def Info: 41.png  used on input line 886.
+Package pdftex.def Info: 41.png  used on input line 878.
 (pdftex.def)             Requested size: 336.05809pt x 217.41393pt.
 
 
@@ -1413,7 +1413,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30 </Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/41_1.png>]
-Underfull \hbox (badness 6758) in paragraph at lines 904--905
+Underfull \hbox (badness 6758) in paragraph at lines 896--897
 []\T1/cmr/bx/n/10.95 Hozz�f�r�s-szab�lyoz�s: \T1/cmr/m/n/10.95 A masz-ko-l�s le-he-t�-s�-get ny�jt h�-l�-za-ti hozz�f�r�s-
  []
 
@@ -1441,7 +1441,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 956--958
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
 
  []
 
@@ -1456,17 +1456,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <51_1.png, id=294, 358.33875pt x 88.33pt>
 File: 51_1.png Graphic file (type png)
 <use 51_1.png>
-Package pdftex.def Info: 51_1.png  used on input line 1025.
+Package pdftex.def Info: 51_1.png  used on input line 1017.
 (pdftex.def)             Requested size: 232.91742pt x 57.4138pt.
 <51_2.png, id=295, 354.32375pt x 87.32625pt>
 File: 51_2.png Graphic file (type png)
 <use 51_2.png>
-Package pdftex.def Info: 51_2.png  used on input line 1029.
+Package pdftex.def Info: 51_2.png  used on input line 1021.
 (pdftex.def)             Requested size: 230.3077pt x 56.76138pt.
 <51_3.png, id=296, 372.39125pt x 93.34875pt>
 File: 51_3.png Graphic file (type png)
 <use 51_3.png>
-Package pdftex.def Info: 51_3.png  used on input line 1033.
+Package pdftex.def Info: 51_3.png  used on input line 1025.
 (pdftex.def)             Requested size: 242.05144pt x 60.67595pt.
 
 
@@ -1480,12 +1480,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <51.png, id=301, 841.1425pt x 156.585pt>
 File: 51.png Graphic file (type png)
 <use 51.png>
-Package pdftex.def Info: 51.png  used on input line 1047.
+Package pdftex.def Info: 51.png  used on input line 1039.
 (pdftex.def)             Requested size: 420.57022pt x 78.2923pt.
 <52.png, id=302, 446.66875pt x 274.02374pt>
 File: 52.png Graphic file (type png)
 <use 52.png>
-Package pdftex.def Info: 52.png  used on input line 1064.
+Package pdftex.def Info: 52.png  used on input line 1056.
 (pdftex.def)             Requested size: 290.33124pt x 178.11331pt.
 
 
@@ -1513,7 +1513,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38]
 
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 1149.
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 1141.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1523,25 +1523,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1165--1168
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1165--1168
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1160
 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 1165--1168
+Underfull \hbox (badness 1320) in paragraph at lines 1157--1160
 \T1/cmr/m/n/10.95 A C nyelv-ben a pa-ra-m�-te-rek �r-t�-k�-nek meg-v�l-toz-ta-t�-s�-hoz pointer-eket hasz-n�l-ha-tunk.
  []
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 1192.
+LaTeX Warning: Command \' invalid in math mode on input line 1184.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 1192.
+LaTeX Warning: Command \' invalid in math mode on input line 1184.
 
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
@@ -1571,9 +1571,9 @@ Here is how much of TeX's memory you used:
  60085 multiletter control sequences out of 15000+600000
  527439 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,80p,882b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,14n,80p,882b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.pdf" (41 pages, 7547551 bytes).
+Output written on "/Volumes/LaCie_1TB/Egyetem/2. FÉLÉV/Informatika és Programozás Alapjai/Vizsga_szobeli/Vizsga_jó_kidolgozás/IPA_szóbeli_tételek.pdf" (41 pages, 7565910 bytes).
 PDF statistics:
  405 PDF objects out of 1000 (max. 8388607)
  228 compressed objects within 3 object streams
